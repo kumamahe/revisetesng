@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="7" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="30468" started-at="2022-04-25T23:44:51 IST" finished-at="2022-04-25T23:45:22 IST">
+    <groups>
+      <group name="a">
+        <method signature="testngrevise.testa(java.lang.String)[pri:1, instance:Happy.testngrevise@51e2adc7]" name="testa" class="Happy.testngrevise"/>
+      </group> <!-- a -->
+      <group name="b">
+        <method signature="testngrevise.testb()[pri:2, instance:Happy.testngrevise@51e2adc7]" name="testb" class="Happy.testngrevise"/>
+      </group> <!-- b -->
+      <group name="c">
+        <method signature="testngd.testd()[pri:0, instance:Happy.testngd@1a8a8f7c]" name="testd" class="Happy.testngd"/>
+        <method signature="testngrevise.testc(java.lang.String, int)[pri:3, instance:Happy.testngrevise@51e2adc7]" name="testc" class="Happy.testngrevise"/>
+      </group> <!-- c -->
+    </groups>
+    <test name="Test1" duration-ms="30468" started-at="2022-04-25T23:44:51 IST" finished-at="2022-04-25T23:45:22 IST">
+      <class name="Happy.testngd">
+        <test-method status="PASS" signature="set(org.testng.ITestContext)[pri:0, instance:Happy.testngd@1a8a8f7c]" name="set" is-config="true" duration-ms="0" started-at="2022-04-25T23:44:59 IST" finished-at="2022-04-25T23:44:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@a74868d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="testd()[pri:0, instance:Happy.testngd@1a8a8f7c]" name="testd" duration-ms="12945" started-at="2022-04-25T23:44:59 IST" finished-at="2022-04-25T23:45:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testd -->
+      </class> <!-- Happy.testngd -->
+      <class name="Happy.testngrevise">
+        <test-method status="PASS" signature="beach(org.testng.ITestContext)[pri:0, instance:Happy.testngrevise@51e2adc7]" name="beach" is-config="true" duration-ms="7865" started-at="2022-04-25T23:44:51 IST" finished-at="2022-04-25T23:44:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@a74868d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beach -->
+        <test-method status="PASS" signature="set(org.testng.ITestContext)[pri:0, instance:Happy.testngrevise@51e2adc7]" name="set" is-config="true" duration-ms="0" started-at="2022-04-25T23:45:12 IST" finished-at="2022-04-25T23:45:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@a74868d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="testa(java.lang.String)[pri:1, instance:Happy.testngrevise@51e2adc7]" name="testa" duration-ms="5363" started-at="2022-04-25T23:45:12 IST" finished-at="2022-04-25T23:45:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testa -->
+        <test-method status="PASS" signature="testb()[pri:2, instance:Happy.testngrevise@51e2adc7]" name="testb" duration-ms="2728" started-at="2022-04-25T23:45:18 IST" depends-on-methods="Happy.testngrevise.testa" finished-at="2022-04-25T23:45:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testb -->
+        <test-method status="PASS" signature="set(org.testng.ITestContext)[pri:0, instance:Happy.testngrevise@51e2adc7]" name="set" is-config="true" duration-ms="0" started-at="2022-04-25T23:45:18 IST" finished-at="2022-04-25T23:45:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@a74868d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="testc(java.lang.String, int)[pri:3, instance:Happy.testngrevise@51e2adc7]" name="testc" duration-ms="5" started-at="2022-04-25T23:45:20 IST" data-provider="data" finished-at="2022-04-25T23:45:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kavian]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[27]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testc -->
+        <test-method status="PASS" signature="set(org.testng.ITestContext)[pri:0, instance:Happy.testngrevise@51e2adc7]" name="set" is-config="true" duration-ms="0" started-at="2022-04-25T23:45:20 IST" finished-at="2022-04-25T23:45:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@a74868d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="set(org.testng.ITestContext)[pri:0, instance:Happy.testngrevise@51e2adc7]" name="set" is-config="true" duration-ms="1" started-at="2022-04-25T23:45:20 IST" finished-at="2022-04-25T23:45:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@a74868d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="testc(java.lang.String, int)[pri:3, instance:Happy.testngrevise@51e2adc7]" name="testc" duration-ms="8" started-at="2022-04-25T23:45:20 IST" data-provider="data" finished-at="2022-04-25T23:45:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ranjith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testc -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:Happy.testngrevise@51e2adc7]" name="quit" is-config="true" duration-ms="1425" started-at="2022-04-25T23:45:20 IST" finished-at="2022-04-25T23:45:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- Happy.testngrevise -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
